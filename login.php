@@ -6,7 +6,6 @@ require 'functions.php';
 if(isset($_SESSION['admin'])){
     header('Location: ./admin');
 }
-
 $errores = '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
